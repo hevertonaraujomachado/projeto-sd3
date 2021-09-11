@@ -11,7 +11,7 @@ import javax.persistence.OneToMany;
 import javax.persistence.Table;
 
 @Entity
-@Table(name ="tb_sallers")
+@Table(name ="tb_sellers")
 public class Seller {
 	
 	@Id
@@ -43,7 +43,7 @@ public class Seller {
 	}
 
 	public void setName(String name) {
-		this.name = name;
+		//this.name = name;
 	}
 
 	public List<Sale> getSales() {
