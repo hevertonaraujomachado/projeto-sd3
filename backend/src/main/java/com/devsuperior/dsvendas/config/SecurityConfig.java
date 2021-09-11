@@ -2,9 +2,7 @@ package com.devsuperior.dsvendas.config;
 
 import java.util.Arrays;
 
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
